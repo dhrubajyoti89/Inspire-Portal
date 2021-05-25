@@ -1,46 +1,34 @@
 import { hasConferenceStarted } from './agenda';
 
-import apheris from '../assets/apheris-ai.png';
-import arkhn from '../assets/arkhn.png';
-import cdhi from '../assets/cdhi.png';
-import datafleets from '../assets/data-fleets.png';
-import goldenspiral from '../assets/golden-spiral.png';
-import inpher from '../assets/inpher.jpg';
+import apheris from '../assets/script.png';
+import arkhn from '../assets/gvc.png';
+import cdhi from '../assets/cxc.jpg';
+import datafleets from '../assets/skillship.png';
 
 export const title = 'Sponsors';
 export const titleLink = hasConferenceStarted ? 'Donate →' : 'Become a Sponsor →';
 export const sponsorLink = hasConferenceStarted
-  ? 'https://opencollective.com/openmined'
-  : 'https://drive.google.com/file/d/1-9_KZ7H0q0_lOhONOFzLTGYGp2VtKqOH/view';
+  ? '#'
+  : '#';
 export const sponsors = [
   {
     image: apheris,
-    name: 'Apheris AI',
-    url: 'https://www.apheris.com/'
+    name: 'Script Foundation',
+    url: '#'
   },
   {
     image: arkhn,
-    name: 'Arkhn',
-    url: 'https://arkhn.com/en/'
+    name: 'Give My Certificate',
+    url: '#'
   },
   {
     image: cdhi,
-    name: 'University of California San Francisco Centre for Digital Health Innovation',
-    url: 'https://www.centerfordigitalhealthinnovation.org/'
+    name: 'CodXCrypt',
+    url: '#'
   },
   {
     image: datafleets,
-    name: 'Data Fleets',
-    url: 'https://www.datafleets.com/'
-  },
-  {
-    image: goldenspiral,
-    name: 'Golden Spiral',
-    url: 'https://goldenspiralmarketing.com/'
-  },
-  {
-    image: inpher,
-    name: 'Inpher',
-    url: 'https://www.inpher.io/'
+    name: 'Skillship Foundation',
+    url: '#'
   }
 ];

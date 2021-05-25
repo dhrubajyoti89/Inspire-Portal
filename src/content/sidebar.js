@@ -3,10 +3,10 @@ export const archiveTitle = 'Relive the conference';
 export const donateTitle = 'Donate';
 export const registerTitle = 'Register';
 
-export const speakerLink = 'https://forms.gle/wpKY6cTL6p5k43as7';
-export const archiveLink = 'https://www.youtube.com/playlist?list=PLUNOsx6Az_ZGKQd_p4StdZRFQkCBwnaY6'
-export const registerLink = 'https://www.eventbrite.co.uk/e/openmined-privacy-conference-2020-tickets-116575230653';
-export const donateLink = 'https://opencollective.com/openmined'
+export const speakerLink = '#';
+export const archiveLink = '#'
+export const registerLink = 'https://forms.gle/qLftXzsHok7EEEc39';
+export const donateLink = 'https://rzp.io/l/UOer79gwf'
 
 export const speakersEmoji =
   'https://emojis.slackmojis.com/emojis/images/1584726375/8272/blob-cool.gif';

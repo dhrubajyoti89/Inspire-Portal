@@ -7,7 +7,7 @@ import { SidebarContent, SidebarCTAs } from './Sidebar';
 
 import theme from '../theme';
 
-import logo from '../assets/logo.svg';
+
 
 const useDelayUnmount = (isMounted, delayTime) => {
   const [shouldRender, setShouldRender] = useState(false);
@@ -67,9 +67,7 @@ export default ({ headerHeight, sidebarWidth, footerHeight }) => {
           alignItems: 'center'
         }}
       >
-        <Link to="/" onClick={isActive ? onMenuClick : null}>
-          <Image src={logo} alt="OpenMined" sx={{ width: itemSize, height: itemSize }} />
-        </Link>
+       
         <Flex
           bg={isActive ? 'lightGray' : 'white'}
           sx={{

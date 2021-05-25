@@ -3,14 +3,14 @@ import { Box, Text, Button, Flex, Link, Image } from 'theme-ui';
 import { Link as RRDLink } from 'react-router-dom';
 
 import {
-  archiveTitle,
-  archiveLink,
+  registerTitle,
   donateTitle,
   donateLink,
   speakersEmoji,
   agendaEmoji,
   sponsorsEmoji,
-  resourcesEmoji
+  resourcesEmoji,
+  registerLink
 } from '../content/sidebar';
 
 const linkStyles = {
@@ -51,7 +51,7 @@ export const SidebarContent = ({ headerHeight, onClick }) => (
     }}
   >
     <Text sx={{ p: [3, null, 4], fontSize: [2, null, 3], color: 'darkGray', maxWidth: 540 }}>
-      {process.env.REACT_APP_PAGE_DESCRIPTION}
+    LOREM IPSUM
     </Text>
     <Flex sx={{ flexDirection: 'column', height: '100%' }}>
       <SidebarLink text="Speakers" to="/speakers" onClick={onClick}>
@@ -82,8 +82,8 @@ export const SidebarCTAs = ({ headerHeight }) => (
     <Button variant="black" as="a" target="_blank" href={donateLink} mr={3}>
       {donateTitle}
     </Button>
-    <Button variant="black" as="a" target="_blank" href={archiveLink}>
-      {archiveTitle}
+    <Button variant="black" as="a" target="_blank" href={registerLink}>
+      {registerTitle}
     </Button>
   </Flex>
 );

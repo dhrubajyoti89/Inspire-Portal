@@ -45,7 +45,7 @@ export const resources = [
           // },
           {
             title: 'Tutorial slides',
-            link: 'https://doi.org/10.5281/zenodo.4053026'
+            link: '#'
           },
         ]
       },
@@ -59,7 +59,7 @@ export const resources = [
           // },
           {
             title: 'Tutorial Notebook',
-            link: 'https://github.com/OpenMined/PyVertical/blob/master/examples/PyVertical%20Example.ipynb'
+            link: '#'
           },
 
         ]
@@ -100,11 +100,11 @@ export const resources = [
         links: [
           {
             title: 'Go to the pre-recorded session',
-            link: 'https://www.youtube.com/watch?v=_EWiCRSdDr0'
+            link: '#'
           },
           {
             title: 'Tutorial Notebook',
-            link: 'https://github.com/tensorflow/federated/blob/master/docs/openmined2020/openmined_conference_2020.ipynb'
+            link: '#'
           },
         ]
       },

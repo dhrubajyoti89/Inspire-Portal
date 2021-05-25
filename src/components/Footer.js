@@ -42,7 +42,7 @@ export default ({ footerHeight }) => (
         ml={3}
         target="_blank"
         href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-          `I'm going to privacy con! ${window.location.href}`
+          `I'm going to INSPIRE INDIA 2021! ${window.location.href}`
         )}`}
       >
         <TwitterIcon />

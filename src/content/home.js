@@ -7,14 +7,14 @@ import { agenda } from './agenda';
 import intro from '../assets/carousel-intro.png'
 // import tickets from '../assets/carousel-tickets.jpg';
 
-export const title = 'OpenMined Privacy Conference';
+export const title = 'INSPIRE INDIA 2021';
 export const description = `Join us on ${agenda[0].datetime.format('DD.MM.YYYY')} - ${agenda[
   agenda.length - 1
 ].datetime.format('DD.MM.YYYY')}`;
 export const slides = [
   {
     image: intro,
-    title: "Let's solve privacy.",
+    title: "Let's do something for the cause.",
     text: () => (
       <Text>
         Researchers, engineers, policy makers, VCs, Mentors, entrepreneurs, philanthropies, and more...
@@ -25,7 +25,7 @@ export const slides = [
       </Text>
     )
   },
-//    {
+//   {
 //     title: 'Registrations are open now!',
 //     text: () => (
 //      <Text>

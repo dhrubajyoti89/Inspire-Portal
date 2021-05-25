@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Manifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#62a4ae" />
+    <meta name="msapplication-TileColor" content="#62a4ae" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- General -->
+    <title>%REACT_APP_PAGE_TITLE%</title>
+    <meta name="description" content="%REACT_APP_PAGE_DESCRIPTION%" />
+    <link rel="canonical" href="%REACT_APP_CANONICAL_URL%" />
+    <link rel="image_src" href="%PUBLIC_URL%/facebook.jpg" />
+    <meta itemprop="name" content="%REACT_APP_PAGE_TITLE%" />
+    <meta itemprop="description" content="%REACT_APP_PAGE_DESCRIPTION%" />
+    <meta itemprop="image" content="%PUBLIC_URL%/facebook.jpg" />
+
+    <!-- Facebook -->
+    <meta property="og:site_name" content="%REACT_APP_PAGE_TITLE%" />
+    <meta property="fb:pages" content="%REACT_APP_FACEBOOK_PAGE%" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="%REACT_APP_CANONICAL_URL%" />
+    <meta property="og:title" content="%REACT_APP_PAGE_TITLE%" />
+    <meta property="og:description" content="%REACT_APP_PAGE_DESCRIPTION%" />
+    <meta property="og:image" content="%PUBLIC_URL%/facebook.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="%REACT_APP_TWITTER_HANDLE%" />
+    <meta name="twitter:url" content="%REACT_APP_CANONICAL_URL%" />
+    <meta name="twitter:title" content="%REACT_APP_PAGE_TITLE%" />
+    <meta name="twitter:description" content="%REACT_APP_PAGE_DESCRIPTION%" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/twitter.jpg" />
+
+    <!-- Imports -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <script>
+      window.fbAsyncInit = function () {
+        window.FB.init({
+          appId: '308339039653695',
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: 'v8.0'
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

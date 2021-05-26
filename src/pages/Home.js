@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Flex, Box, Heading, Image, Text } from 'theme-ui';
 
-import { title, description, slides } from '../content/home';
+import { slides } from '../content/home';
 
 const Buttons = ({ slideNum, slides, prevSlide, nextSlide, sx }) =>
   slides.length <= 1 ? null : (
@@ -72,7 +72,7 @@ const Carousel = ({ slides }) => {
             <Flex sx={{ flexDirection: 'column', justifyContent: 'center', height: '100%' }}>
               <Box>
                 <Heading as="h4" sx={{ fontFamily: 'monospace', mb: 2 }}>
-                  {title}
+                  
                 </Heading>
                 {typeof text === 'string' && <Text>{text}</Text>}
                 {typeof text !== 'string' && <Text as={text} />}

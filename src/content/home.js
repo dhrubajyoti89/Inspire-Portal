@@ -2,15 +2,11 @@ import React from 'react';
 import { Text } from 'theme-ui';
 
 // import { registerLink } from './sidebar';
-import { agenda } from './agenda';
 
 import intro from '../assets/carousel-intro.png'
 // import tickets from '../assets/carousel-tickets.jpg';
 
-export const title = 'INSPIRE INDIA 2021';
-export const description = `Join us on ${agenda[0].datetime.format('DD.MM.YYYY')} - ${agenda[
-  agenda.length - 1
-].datetime.format('DD.MM.YYYY')}`;
+
 export const slides = [
   {
     image: intro,

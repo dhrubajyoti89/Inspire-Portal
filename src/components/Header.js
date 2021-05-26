@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Flex, Box, Image } from 'theme-ui';
-import { Link } from 'react-router-dom';
+import { Flex, Box } from 'theme-ui';
 import HamburgerMenu from 'react-hamburger-menu';
 
 import { SidebarContent, SidebarCTAs } from './Sidebar';

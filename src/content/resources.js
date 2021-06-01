@@ -6,28 +6,18 @@ export const resources = [
     title: 'Tutorial breakout sessions',
     talks: [
       {
-        title: 'SyferText 0.1.0: Privacy-preserving NLP over PyGrid',
-        description: 'This tutorial session presents SyferText 0.1.0 - its vision, with hands-on examples on how to create a pipeline (including pre-processing component + PySyft model), deploy it to PyGrid, load it, and use it.',
-        links: [
-          // {
-          //   title: 'Go to the live tutorial',
-          //   link: 'https://us02web.zoom.us/j/84665866671'
-          // },
-        ]
-      },
-      {
-        title: 'Duet Demo - How to Do Data Science on Data Owned by a Different Organization',
+        title: 'Demo - How to Do Data Science on Data Owned by a Different Organization',
         description: '',
         links: [
-          // {
-          //   title: 'Go to the live tutorial',
-          //   link: 'https://zoom.us/j/98559827753'
-          // },
+          {
+            title: 'Tutorial Slides',
+            link: '#'
+          },
         ]
       },
       {
-        title: 'Deploying Federated Learning on Android with KotlinSyft',
-        description: 'In this interactive session, the speakers will perform a code walkthrough of the mobile federated learning ecosystem developed at OpenMined that is PySyft, PyGrid and KotlinSyft.The talk will start with creating neural networks in PySyft and deploying them on PyGrid with JSON Web Token authentication. The speakers show how to build an android application to train the hosted model on privately held data using KotlinSyft. Diving deeper, the talk will go through the various features of KotlinSyft like change detection, wifi detection and RX support. The session will end with the new features that are in progress and will soon be added to KotlinSyft like peer to peer SMPC protocols.',
+        title: 'Deploying Jetpack on Android with Kotlin',
+        description: 'Learn the essential jetpack libraries in Kotlin and reduce broilerplate in your app alongside hands-on on three libraries that simplify your data layers - Live Data, View Model and Room',
         links: [
           // {
           //   title: 'Go to the live tutorial',
@@ -47,51 +37,6 @@ export const resources = [
             title: 'Tutorial slides',
             link: '#'
           },
-        ]
-      },
-      {
-        title: 'Privacy Preserving Vertically Distributed Machine Learning (Apheris)',
-        description: 'The speakers present PyVertical - a system to train machine learning models on vertically distributed data. In a first step, vertically distributed data is linked without exposing membership using Private Set Intersection. Then a Split Neural Network is trained such that privacy is preserved throughout the entire process',
-        links: [
-          // {
-          //   title: 'Go to the live tutorial',
-          //   link: 'https://us02web.zoom.us/j/86762433956'
-          // },
-          {
-            title: 'Tutorial Notebook',
-            link: '#'
-          },
-
-        ]
-      },
-      {
-        title: 'Introduction to TFHE and Some Applications (Inpher)',
-        description: 'Homomorphic encryption is a privacy preserving technique allowing a single public cloud to operate on secret data without leaking anything on the data. In this presentation, the speakers recall the capabilities of homomorphic encryption, and its security model. Then they detail the TFHE library, whose API supports efficiently various plaintext computation models, like arbitrary boolean circuits, arithmetic circuits with discrete and continuous logic, and other computational models like deterministic automata or lookup tables. They first demonstrate a few tutorial examples. In the second part of this talk the speakers describe two applications for private genomic studies: private GWAS and private genome imputation (which won the 1st place at Idash 2019), where methods for secure computation have shown significant performance improvements over the last several years, and in particular fully homomorphic encryption becomes a critical path technology for innovative, life-saving research to positively and equally impact the global population.',
-        links: [
-          // {
-          //   title: 'Go to the live tutorial',
-          //   link: 'https://us02web.zoom.us/j/83521611553'
-          // },
-        ]
-      },
-      {
-        title: 'Opus and PryVote: The Brave New World of Self Sovereign Identity (SSI)',
-        description: 'This session will demonstrate our new SSI standard development kit. The speakers will discuss the need for decentralised identity and trust, the technologies involved and two flagship SSI applications; Opus and PryVote.',
-        links: [
-          // {
-          //   title: 'Go to the live tutorial',
-          //   link: 'https://us02web.zoom.us/j/85933285403'
-          // },
-        ]
-      },
-      {
-        title: 'Privacy-preserving Medical Imaging Analysis with OpenMined PriMIA. A sneak peek at features and concepts',
-        description: 'This session will provide a first look at the design and features of PriMIA, a library for privacy-preserving deep learning for medical imaging, jointly developed by the Technical University of Munich, Imperial College London and OpenMined. A brief introduction to the project will be given (ca. 10 minutes), after which participants will be given insight into how PriMIA performs federated learning and encrypted inference, as well as be introduced to the challenges of medical image analysis in a real-life environment using actual medical images and the Jupyter Notebook environment. (ca. 20 minutes). Lastly, opportunity will be provided for dicussion and participant questions (ca. 15 minutes).',
-        links: [
-          // {
-          //   title: 'Go to the live tutorial',
-          //   link: 'https://us02web.zoom.us/j/87644502325'
-          // },
         ]
       },
       {

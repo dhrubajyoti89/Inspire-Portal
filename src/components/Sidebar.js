@@ -50,10 +50,13 @@ export const SidebarContent = ({ headerHeight, onClick }) => (
       justifyContent: 'space-between'
     }}
   >
-    <Text sx={{ p: [3, null, 4], fontSize: [2, null, 3], color: 'darkGray', maxWidth: 540 }}>
-    LOREM IPSUM
+    <Text sx={{ p: [3, null, 4], fontSize: [2, null, 2], color: 'darkGray', maxWidth: 540 }}>
+    Inspire India is a FREE 3-Day long program comprising of various Speaker sessions, Live project demonstrations, and Community talks.
     </Text>
     <Flex sx={{ flexDirection: 'column', height: '100%' }}>
+    <SidebarLink text="Home" to="/home" onClick={onClick}>
+        <Image sx={{ height: 32, ml: 3 }} src={speakersEmoji} alt="Home" />
+      </SidebarLink>
       <SidebarLink text="Speakers" to="/speakers" onClick={onClick}>
         <Image sx={{ height: 32, ml: 3 }} src={speakersEmoji} alt="Speakers" />
       </SidebarLink>

@@ -55,19 +55,19 @@ export const SidebarContent = ({ headerHeight, onClick }) => (
     </Text>
     <Flex sx={{ flexDirection: 'column', height: '100%' }}>
     <SidebarLink text="Home" to="/home" onClick={onClick}>
-        <Image sx={{ height: 28, ml: 3 }} src={speakersEmoji} alt="Home" />
+        <Image sx={{ height: 28, ml: 2 }} src={speakersEmoji} alt="Home" />
       </SidebarLink>
       <SidebarLink text="Speakers" to="/speakers" onClick={onClick}>
-        <Image sx={{ height: 28, ml: 3 }} src={speakersEmoji} alt="Speakers" />
+        <Image sx={{ height: 28, ml: 2 }} src={speakersEmoji} alt="Speakers" />
       </SidebarLink>
       <SidebarLink text="Agenda" to="/agenda" onClick={onClick}>
-        <Image sx={{ height: 28, ml: 3 }} src={agendaEmoji} alt="Agenda" />
+        <Image sx={{ height: 28, ml: 2 }} src={agendaEmoji} alt="Agenda" />
       </SidebarLink>
       <SidebarLink text="Resources" to="/resources" onClick={onClick}>
-        <Image sx={{ height: 28, ml: 3 }} src={resourcesEmoji} alt="Resources" />
+        <Image sx={{ height: 28, ml: 2 }} src={resourcesEmoji} alt="Resources" />
       </SidebarLink>
       <SidebarLink text="Sponsors" to="/sponsors" onClick={onClick}>
-        <Image sx={{ height: 28, ml: 3 }} src={sponsorsEmoji} alt="Sponsors" />
+        <Image sx={{ height: 28, ml: 2 }} src={sponsorsEmoji} alt="Sponsors" />
       </SidebarLink>
     </Flex>
   </Flex>

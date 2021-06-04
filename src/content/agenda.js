@@ -267,7 +267,7 @@ export const schedule = [
   {
     datetime: dayjs.utc('2021-06-12|11:30:00', timeFormat),
     speakers: [getSpeakerByName('Omkar Shinde')],
-    title: 'Building together communities - CommunityX',
+    title: 'Importance Of Student Communities',
     group: groups['roadmap'],
     description:
       'Understand the concept of CommunityX Platform and its benefits for the other communities',

@@ -57,7 +57,7 @@ export const speakers = [
     image: omkar,
     pixelImage: pixelate(omkar),
     name: 'Omkar Shinde',
-    title: 'Founder at CommunityX  Pvt. Ltd.',
+    title: 'Founder & CEO at Industry Inspire Talks, CommunityX',
     about: [
       "Omkar Shinde is the Founder at CommunityX an online marketplace for Communities ONLY! At CommunityX, they invite & support all online/offline communities. All the communities can share their upcoming initiatives, volunteering work opportunities for students.  "
     ],
